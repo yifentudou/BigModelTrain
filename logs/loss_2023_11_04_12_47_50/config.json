@@ -1,0 +1,19 @@
+{
+    "dataset": {
+        "root_dir": "./dataset/PetImages",
+        "train_split": 0.8,
+        "batch_size": 64
+    },
+    "model": {},
+    "optimizer": {
+        "type": "Adam",
+        "lr": 0.001,
+        "weight_decay": 0.0001
+    },
+    "train": {
+        "log_dir": "./logs",
+        "num_epochs": 100,
+        "model_save_dir": "./model_data",
+        "model_save_period": 20
+    }
+}
